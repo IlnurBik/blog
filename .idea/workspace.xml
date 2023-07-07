@@ -1,7 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a951d11c-12e7-4ca2-9a59-b7e497bee2b3" name="Default Changelist" comment="" />
+    <list default="true" id="a951d11c-12e7-4ca2-9a59-b7e497bee2b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/BaseController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/CreateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/DeleteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/EditController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/ShowController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/StoreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/User/UpdateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Category/Post/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Comment/DeleteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Comment/EditController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Comment/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Comment/UpdateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Liked/DeleteController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Liked/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Personal/Main/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/Comment/StoreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/IndexController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/Like/StoreController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Post/ShowController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Admin/User/StoreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Admin/User/UpdateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Personal/Comment/UpdateRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/Post/Comment/StoreRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Service/PostService.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/create.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/user/show.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/category/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/category/post/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/personal/comment/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/personal/comment/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/personal/includes/sidebar.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/personal/layouts/main.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/personal/liked/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/personal/main/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/post/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/post/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/abca1db2-756a-42e6-bddf-98a2c8d17052.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/abca1db2-756a-42e6-bddf-98a2c8d17052.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Main/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Main/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/CreateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/CreateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/DeleteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/DeleteController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/EditController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/EditController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/ShowController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/ShowController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/StoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/StoreController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/UpdateController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Admin/Post/UpdateController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/ConfirmPasswordController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/RegisterController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Auth/VerificationController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Main/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Main/IndexController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Admin/Post/StoreRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Admin/Post/StoreRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/Admin/Post/UpdateRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/Admin/Post/UpdateRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Post.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/includes/sidebar.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/main/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/main/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/post/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/post/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/tag/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/tag/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/main.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/main/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/main/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +89,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -124,6 +206,7 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/laravel/telescope" />
     </include_path>
   </component>
   <component name="ProjectId" id="2R5q8jcgXCdgCBGp7kvKAvUBtNL" />
@@ -134,20 +217,20 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myblog" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\lessons\blog\app\Http\Controllers\Admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\lessons\blog\storage\app\public" />
-      <recent name="D:\lessons\blog\public\plugins" />
-      <recent name="D:\lessons\blog\resources\views\admin" />
-      <recent name="D:\lessons\blog\app\Http\Requests\Admin" />
+      <recent name="D:\lessons\blog\resources\views\category" />
+      <recent name="D:\lessons\blog\app\Http\Controllers\Category" />
+      <recent name="D:\lessons\blog\resources\views" />
+      <recent name="D:\lessons\blog\app\Http\Controllers" />
+      <recent name="D:\lessons\blog\app\Http\Controllers\Post" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\lessons\blog\app\Http\Controllers\Admin" />
     </key>
   </component>
@@ -176,6 +259,22 @@
       <workItem from="1686769516294" duration="4628000" />
       <workItem from="1686800154871" duration="3600000" />
       <workItem from="1686839562914" duration="744000" />
+      <workItem from="1686840322965" duration="1361000" />
+      <workItem from="1686849410480" duration="7868000" />
+      <workItem from="1686933010947" duration="19000" />
+      <workItem from="1686944570065" duration="1454000" />
+      <workItem from="1687074426288" duration="126000" />
+      <workItem from="1687148219700" duration="1135000" />
+      <workItem from="1687196882369" duration="736000" />
+      <workItem from="1687229021329" duration="6302000" />
+      <workItem from="1687275874831" duration="6673000" />
+      <workItem from="1687315297615" duration="6466000" />
+      <workItem from="1687363136496" duration="4736000" />
+      <workItem from="1687405486980" duration="3618000" />
+      <workItem from="1687450456772" duration="6880000" />
+      <workItem from="1687492283412" duration="3691000" />
+      <workItem from="1687536742740" duration="5940000" />
+      <workItem from="1687591741211" duration="18000" />
     </task>
     <servers />
   </component>
@@ -191,18 +290,22 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1027" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686551105866" />
-    <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1686802881675">
+    <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1687315639959">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686802881675" />
-    <state x="1197" y="218" key="FileChooserDialogImpl" timestamp="1686553484487">
+    <state x="1011" y="456" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1687315639959" />
+    <state x="1197" y="218" key="FileChooserDialogImpl" timestamp="1687591757689">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1197" y="218" key="FileChooserDialogImpl/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686553484487" />
+    <state x="1197" y="218" key="FileChooserDialogImpl/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1687591757689" />
     <state width="198" height="457" key="HiddenNamespacesPopup" timestamp="1686553323779">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="198" height="457" key="HiddenNamespacesPopup/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686553323779" />
+    <state x="1113" y="424" key="NewPhpClassDialog" timestamp="1686853872606">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1113" y="424" key="NewPhpClassDialog/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686853872606" />
     <state x="1117" y="624" key="NewPhpFileDialog" timestamp="1686561680500">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -215,9 +318,9 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="532" height="446" key="SwitcherDM/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686681557823" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1686560700226">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1687539670796">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1686560700226" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/3840.749.1920.1040@0.0.2560.1400" timestamp="1687539670796" />
   </component>
 </project>

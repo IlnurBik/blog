@@ -32,13 +32,13 @@
                             <input type="text" name="title" class="form-control" value="{{ old('title') }}"
                                    placeholder="Название категории">
                             @error('title')
-                                <div class="text-danger">Это поле необходимо заполнить</div>
+                            <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group">
                             <textarea id="summernote" name="content">{{ old('content') }}</textarea>
                             @error('content')
-                            <div class="text-danger">Это поле необходимо заполнить</div>
+                            <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group w-50">
@@ -53,7 +53,7 @@
                                 </div>
                             </div>
                             @error('preview_image')
-                            <div class="text-danger">Выберите изображение</div>
+                            <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group w-50">
@@ -68,7 +68,7 @@
                                 </div>
                             </div>
                             @error('main_image')
-                            <div class="text-danger">Выберите изображение</div>
+                            <div class="text-danger">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group w-25">
@@ -82,7 +82,7 @@
                             </select>
                         </div>
                         @error('category_id')
-                        <div class="text-danger">Выберите изображение</div>
+                        <div class="text-danger">{{ $message }}</div>
                         @enderror
                         <div class="form-group w-50">
                             <label>Теги</label>
